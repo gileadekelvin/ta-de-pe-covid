@@ -15,7 +15,6 @@ export class FiltroAlertasComponent implements OnInit {
 
   estadoFiltro: any[] = [
     { estado: 'Estados', estado_slug: '0' },
-    { estado: 'PE', estado_slug: '26' },
     { estado: 'RS', estado_slug: '43' }];
 
   constructor(
